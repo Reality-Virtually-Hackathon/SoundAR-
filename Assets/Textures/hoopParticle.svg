@@ -53,9 +53,12 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:#c3c3c3;fill-opacity:1;stroke:none;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#888888;fill-opacity:1;stroke:none;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 188.57227 199.66211 A 162.85715 162.85715 0 0 0 25.714844 362.51953 A 162.85715 162.85715 0 0 0 188.57227 525.37695 A 162.85715 162.85715 0 0 0 351.42773 362.51953 A 162.85715 162.85715 0 0 0 188.57227 199.66211 z M 188.57227 215.94727 A 146.57143 146.57144 0 0 1 335.14258 362.51953 A 146.57143 146.57144 0 0 1 188.57227 509.0918 A 146.57143 146.57144 0 0 1 42 362.51953 A 146.57143 146.57144 0 0 1 188.57227 215.94727 z "
        transform="scale(0.26458333)"
-       id="path4485" />
+       id="path4485"
+       inkscape:export-filename="C:\Users\jjoseph\hoopParticle.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
   </g>
 </svg>

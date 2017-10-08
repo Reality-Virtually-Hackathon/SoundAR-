@@ -56,6 +56,8 @@
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.03072524;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 249.90625 270.56055 L 91.240234 545.37695 L 249.90625 820.19336 L 567.23633 820.19336 L 725.90234 545.37695 L 567.23633 270.56055 L 249.90625 270.56055 z M 265.77344 298.04297 L 551.37109 298.04297 L 694.16992 545.37695 L 551.37109 792.71094 L 265.77344 792.71094 L 122.97461 545.37695 L 265.77344 298.04297 z "
        transform="scale(0.26458333)"
-       id="path6701" />
+       id="path6701"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
   </g>
 </svg>

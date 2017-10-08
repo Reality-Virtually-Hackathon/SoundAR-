@@ -14,8 +14,11 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg5045"
-   inkscape:version="0.92.1 r15371"
-   sodipodi:docname="sphereParticle.svg">
+   sodipodi:docname="sphereParticle.svg"
+   inkscape:export-filename="D:\UnityProjects\HackathonCircles\Assets\Textures\sphereParticle.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="0.92.1 r15371">
   <defs
      id="defs5039" />
   <sodipodi:namedview
@@ -53,10 +56,12 @@
      inkscape:groupmode="layer"
      id="layer1">
     <circle
-       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.23589355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path5590"
        cx="110.36904"
        cy="114.81548"
-       r="55.940472" />
+       r="55.940472"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
   </g>
 </svg>
