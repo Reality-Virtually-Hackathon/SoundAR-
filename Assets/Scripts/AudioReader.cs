@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(AudioSource))]
 public class AudioReader : MonoBehaviour {
     public AudioWriter Writer;
 
