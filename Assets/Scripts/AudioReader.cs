@@ -3,12 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(AudioSource))]
-public abstract class AudioReader : MonoBehaviour {
+public class AudioReader : MonoBehaviour {
     public AudioWriter Writer;
 
-    protected abstract void _OnLevelChange( float f );
+    protected virtual void _OnLevelChange( float f ) { }
+    protected virtual void _OnFreqChange( float f ) { }
+
     public void Start()
     {
+        if (Writer == null)
+            Writer = GetComponent<AudioWriter>();
         Writer.OnLevelChange += _OnLevelChange;
+        Writer.OnFreqChange += _OnFreqChange;
     }
 }

@@ -9,7 +9,6 @@ public class GetAudioSpectrum : MonoBehaviour
     void Update()
     {
         float[] spectrum = new float[256];
-
         GetComponent<AudioSource>().GetSpectrumData( spectrum, 0, FFTWindow.Rectangular );
 
         int ixPeak = 0;
