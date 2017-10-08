@@ -9,6 +9,7 @@ public class PModStartColorFromFreq : AudioReader
     public Gradient ColorValues;
     protected override void _OnFreqChange( float f )
     {
+        Debug.Log( f );
         ParticleSystem.MainModule mm = GetComponent<ParticleSystem>().main;
         mm.startColor = ColorValues.Evaluate( f );
     }
