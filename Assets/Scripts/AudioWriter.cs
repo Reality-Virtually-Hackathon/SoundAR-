@@ -17,6 +17,7 @@ public class AudioWriter : MonoBehaviour {
 
     void Update()
     {
-        OnLevelChange( currentLevel );
+        if (OnLevelChange != null)
+            OnLevelChange( currentLevel );
     }
 }

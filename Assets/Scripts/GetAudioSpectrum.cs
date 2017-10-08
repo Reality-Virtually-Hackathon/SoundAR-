@@ -10,7 +10,7 @@ public class GetAudioSpectrum : MonoBehaviour
     {
         float[] spectrum = new float[256];
 
-        AudioListener.GetSpectrumData( spectrum, 0, FFTWindow.Rectangular );
+        GetComponent<AudioSource>().GetSpectrumData( spectrum, 0, FFTWindow.Rectangular );
 
         int ixPeak = 0;
         float fMax = 0;
@@ -24,8 +24,8 @@ public class GetAudioSpectrum : MonoBehaviour
         }
 
         float fPeak = (float)ixPeak / (float)spectrum.Length;
-        ParticleSystem.MainModule mm = GetComponent<ParticleSystem>().main;
-        mm.startColor = Colors.Evaluate( fPeak );
+        // ParticleSystem.MainModule mm = GetComponent<ParticleSystem>().main;
+        // mm.startColor = Colors.Evaluate( fPeak );
         Debug.Log( fPeak );
     }
 }
